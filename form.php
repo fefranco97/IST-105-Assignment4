@@ -19,16 +19,16 @@
            border-radius: 8px;">
         <div style="display: flex; flex-direction: column; gap: 8px;">
             <div style="display: flex; gap: 8px;">
-                <label for="x" style="font-weight: bold; font-size:28px ;">a:</label>
-                <input type="number" name="x" id="x" required>
+                <label for="a" style="font-weight: bold; font-size:28px ;">a:</label>
+                <input type="number" name="a" id="a required>
+            </div>
+            <div style=" display: flex; gap: 8px;">
+                <label for="b style=" font-weight: bold; font-size:28px ;">b:</label>
+                <input type="number" name="b" id="b" required>
             </div>
             <div style="display: flex; gap: 8px;">
-                <label for="y" style="font-weight: bold; font-size:28px ;">b:</label>
-                <input type="number" name="y" id="y" required>
-            </div>
-            <div style="display: flex; gap: 8px;">
-                <label for="z" style="font-weight: bold; font-size:28px ;">c:</label>
-                <input type="number" name="z" id="z" required>
+                <label for="c" style="font-weight: bold; font-size:28px ;">c:</label>
+                <input type="number" name="c" id="c" required>
             </div>
         </div>
         <button type="submit"
