@@ -16,9 +16,6 @@ a = int(sys.argv[1])
 b = int(sys.argv[2])
 c = int(sys.argv[3])
 
-if not (a.isnumeric() and b.isnumeric() and c.isnumeric()):
-     print("Error: All inputs must be numeric.")
-    
 if a < 1:
     print("Error: Input is too small.")
 
@@ -37,7 +34,29 @@ elif c > 0:
     result += b
     
 
-print(result)   
+print(f"""
+<html>
+<body>
+    <main 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+    border-radius: 0.45rem;
+    margin: auto;
+    max-width: fit-content;
+    ">   
+    
+    <h1>Assignment 4 - Felipe Franco de Camargo</h1>
+    <h1>Initial Values</h1>
+    
+    <span style="font-size:18px; margin-bottom:0.25rem;" >x: {a}</span>
+    <span style="font-size:18px; margin-bottom:0.25rem;" >y: {b}</span>
+    <span style="font-size:18px; margin-bottom:0.25rem;" >z: {c}</span>
+
+    <h4>Final Result: {result}</h2>
+         </main>
+</body>
+</html>
+""")
     
     
 
